@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Survey</title>
+    <link rel="stylesheet" type="text/css" href="survey.css" />
+  </header>
+  <body>
+    <div id="main">
+      <h1 id="title"><b>freeCodeCamp Survey Form</b></h1>
+      <p id="description">
+        <i
+          ><b>
+            Thank you for taking the time to help us improve the platform</b
+          ></i
+        >
+      </p>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          required
+        /><br /><br />
+        <label for="email" id="email-label">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your Email"
+          required
+        /><br /><br />
+        <label for="age" id="number-label">Age:</label><br />
+        <input
+          type="number"
+          min="14"
+          max="110"
+          id="number"
+          placeholder="Age"
+        /><br /><br />
+
+        <label for="dropdown"
+          >Which option best describes your current role?</label
+        ><br /><br />
+        <select id="dropdown" name="current role">
+          <option disabled hidden selected>Select current role</option>
+          <option value="student">student</option>
+          <option value="Full time job">Full time job</option>
+          <option value="Full time learner">Full time learner</option>
+          <option value="Other">Other</option> </select
+        ><br /><br />
+
+        <label for="recommendation"
+          >Would you recommend freeCodeCamp to a friend?</label
+        ><br />
+        <input type="radio" name="recommendation" value="Definitely" />
+        <label for="recommendation">Definitely</label><br />
+        <input type="radio" id="female" name="recommendation" value="Maybe" />
+        <label for="recommendation">Maybe</label><br />
+        <input type="radio" id="other" name="recommendation" value="Not sure" />
+        <label for="recommendation">Not sure</label><br /><br />
+
+        <label for="dropdown"
+          >What is your favorite feature of freeCodeCamp?</label
+        ><br /><br />
+        <select id="dropdown" name="feature">
+          <option disabled hidden selected>Select One</option>
+          <option value="challenges">challenges</option>
+          <option value="Projects">Projects</option>
+          <option value="Community">Community</option>
+          <option value="Open Sources">Open Sources</option> </select
+        ><br /><br />
+
+        <label for="checkbox"
+          >What would you like to see improved? (Check all that apply) </label
+        ><br />
+        <input type="checkbox" value="Front-end Projects" />
+        <label for="vehicle1"> Front-end Projects</label><br />
+        <input type="checkbox" value="Back-end Projects" />
+        <label for="vehicle2">Back-end Projects</label><br />
+        <input type="checkbox" value="Back-end Projects" />
+        <label for="Data Visualization">Back-end Projects </label><br /><br />
+
+        <label for="textarea">Any comments or suggestions?</label>
+
+        <textarea id="textarea" rows="4" cols="50"> </textarea><br /><br />
+
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+  background-color: rgb(103, 160, 108);
+}
+#survey-form {
+  block-size: 700px;
+  background-color: rgb(67, 77, 46);
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+}
+#description {
+  text-align: center;
+  color: #000;
+}
+#title {
+  text-align: center;
+  font-size: larger;
+}
